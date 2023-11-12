@@ -1,0 +1,60 @@
+.litmon_navbar {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.litmon_navbar-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 0.5rem 0rem;
+    justify-content: space-between;
+}
+
+.litmon_navbar-container img {
+    width: 200px;
+    justify-content: flex-start;
+    
+}
+
+.litmon_navbar-container nav{
+    color: #000;
+    display: flex;
+    font-family: var(--font-family-text);
+    justify-content: flex-end;
+    font-weight: bold;
+    
+}
+
+.litmon_navbar-container nav a {
+    margin: 0 0.5rem;
+}
+
+.litmon_navbar-menu {
+    display: none;
+}
+
+nav {
+    font-family: var(--font-family-text);
+}
+
+@media screen and (max-width: 900px) {
+    .litmon_navbar-menu {
+        display: flex;
+    }
+    .litmon_navbar-container nav{
+        display: none;
+    }
+    .litmon_navbar-menu_container-links nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .litmon_navbar{
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
