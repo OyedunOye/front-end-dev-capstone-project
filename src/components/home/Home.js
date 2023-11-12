@@ -3,9 +3,10 @@ import restaurant from '../../assets/restauranfood.jpg'
 import './home.css'
 const Home = () => {
   return (
+    <div className='litmon_home-outcover'>
     <div className='litmon_home'>
-      <div className='litmon_home-container'>
-        <div className='litmon_home-container_text section__padding'>
+      <div className='litmon_home-container section__padding'>
+        <div className='litmon_home-container_text'>
           <h1>Little Lemon</h1>
           <h3>Chicago</h3>
           <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
@@ -16,6 +17,7 @@ const Home = () => {
       </div>
       </div>
       
+    </div>
     </div>
   )
 }
