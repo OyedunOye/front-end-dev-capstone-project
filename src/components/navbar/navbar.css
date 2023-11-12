@@ -2,6 +2,9 @@
     display: flex;
     align-content: center;
     align-items: center;
+  
+    flex-wrap: wrap;
+    
 }
 
 .litmon_navbar-container {
@@ -40,6 +43,7 @@ nav {
 }
 
 @media screen and (max-width: 900px) {
+    
     .litmon_navbar-menu {
         display: flex;
     }

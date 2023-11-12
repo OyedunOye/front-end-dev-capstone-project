@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className='litmon_navbar  section__padding'>
+    <div className='litmon_navbar  section__margin'>
       <div className='litmon_navbar-container'>
         <div className='litmon_navbar-container_img'>
           <img src={logo} alt='logo' />

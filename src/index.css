@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Markazi|Karla');
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text');
+@import url('https://fonts.googleapis.com/css?family=Karla');
 
 :root {
   margin: 0;
+
   --font-family-title: 'Markazi';
-  --font-family-text: 'karla';
-  
-  --color-bg:'#495E57';
-  --color-title: '#F4CE14';
-  --color-subtitle: '#EDEFEE';
-  --color-price: '#EE9972';
-  --color-button: '#F4CE14';
-  --color-footer: '#D9D9D9';
+  --font-family-text: 'Karla';
+
+  --color-bgd:#495E57;
+  --color-title: #F4CE14;
+  --color-subtitle: #EDEFEE;
+  --color-price: #EE9972;
+  --color-button: #F4CE14;
+  --color-footer: #D9D9D9;
 }

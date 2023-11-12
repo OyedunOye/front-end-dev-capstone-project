@@ -1,0 +1,81 @@
+.litmon_home {
+    
+    display: flex;
+    padding-bottom: 2rem;
+
+
+}
+
+.litmon_home-container {
+    
+    display: flex;
+    flex: 1;
+    
+    align-content: center ;
+    background-color: #495E57;
+}
+
+.litmon_home-container_text {
+    display: flex;
+    flex-direction: column;
+    
+    flex: 0.50;
+    
+}
+
+.litmon_home-container_img {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    
+    margin-right: 8rem;
+    
+    padding: 2rem 0 0 0;
+    height: 105%;
+    width: 100%;
+}
+
+.litmon_home-container_img img {
+    height:35rem;
+    width: 30rem;
+    justify-content: end;
+    align-self: flex-end;
+    height: 105%;
+    border-radius: 2rem;
+}
+
+.litmon_home-container_text h1 {
+    font-family: var(--font-family-title);
+    font-size: 64px;
+    color: var(--color-title);
+    font-weight: 100;
+}
+
+.litmon_home-container_text h3{
+    padding: 0.5rem 0 0 0;
+    font-size: 40px;
+    color: var(--color-subtitle);
+}
+
+.litmon_home-container_text p{
+    font-family: var(--font-family-text);
+    color: var(--color-subtitle);
+    padding: 1rem 0;
+    font-size: 20px;
+}
+
+.litmon_home-container_text button {
+    width: 50%;
+    margin-top: 2rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-button);
+    font-family: var(--font-family-text);
+    outline: none;
+    border: none;
+    font-size: 18px;
+
+}
+
+
+
