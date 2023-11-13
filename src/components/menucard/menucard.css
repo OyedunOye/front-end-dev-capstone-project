@@ -1,0 +1,79 @@
+.litmon_menucard {
+    display:flex; 
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    
+}
+
+.litmon_menucard-box {
+
+    width: 16rem;
+    height: 30rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: var(--color-footer);
+    border-start-end-radius: 5%;
+    border-start-start-radius: 5%;
+    margin: 0 0.5rem;
+    
+}
+
+.litmon_menucard-innermagin {
+    margin: 2rem 1.5rem;
+}
+
+.litmon_menucard-box_heading {
+    display: flex;
+    padding-top: 1rem;
+    font-family: var(--font-family-title);
+    font-size: 20px;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.litmon_menucard-box_bom {
+    font-family: var(--font-family-title);
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    align-content: last baseline;
+    margin-top: 3rem;
+
+}
+
+.litmon_menucard-box_desc{
+    font-family: var(--font-family-text);
+    font-size: 16px;
+    color: var(--color-bgd);
+    margin: 2rem 0;
+    padding-top: 1rem;
+}
+
+.litmon_menucard-box_heading p{
+    color: var(--color-price);
+    
+}
+
+.litmon_menucard-box-meal{
+    width: 302rem;
+    height: 160rem;
+    border-radius: 1rem;
+}
+
+/* Yet to figure out the media-query, image is not respon
+sive, neither are the menu cards making up the  menu-
+list component. */
+
+@media screen and (max-width:550px) {
+        .litmon_menucard-box{
+            display: flex;
+            flex-direction: column;
+        }
+    
+}
+
+
+
+

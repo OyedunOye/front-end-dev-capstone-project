@@ -1,0 +1,37 @@
+.litmon_menulist-head{
+    margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.litmon_menulist-head h1 {
+    font-family: var(--font-family-title);
+    color: var(--color-bgd);
+    font-size: 58px;
+}
+
+.litmon_menulist-head button{
+    width: 20%;
+    
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-button);
+    font-family: var(--font-family-text);
+    outline: none;
+    border: none;
+    font-size: 18px;
+    
+}
+
+/* Yet to figure out the media-query, image is not respon
+sive, neither are the menu cards making up the  menu-
+list component. */
+
+@media screen and (max-width:550px) {
+    .litmon_menulist .litmon_menucard-box{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,41 +1,30 @@
 .litmon_home-outcover{
     padding-bottom: 3rem;
-    
 }
-.litmon_home {
-    
-    display: flex;
-    
-    background-color: var(--color-bgd)
-   
 
+.litmon_home {
+    display: flex;
+    background-color: var(--color-bgd)
 }
 
 .litmon_home-container {
-    
     display: flex;
     flex: 1;
-    
     align-content: center ;
 }
 
 .litmon_home-container_text {
     display: flex;
     flex-direction: column;
-    
     flex: 0.50;
-    
 }
 
 .litmon_home-container_img {
     display: flex;
     flex:1;
     flex-direction: column;
-    
-    
-    
     padding: 2rem 0 0 0;
-    height: 110%;
+    height: 115%;
     width: 100%;
 }
 
@@ -44,7 +33,7 @@
     width: 18rem;
     justify-content: end;
     align-self: flex-end;
-    height: 110%;
+    height: 115%;
     border-radius: 2rem;
 }
 
@@ -92,7 +81,7 @@
         padding: 1rem 0 0 0;
     }
     .litmon_home-container_text button {
-        width: 90%;
+        width: 100%;
         padding: 0 0.1rem;
         margin-top: 1rem;
         font-size: 14px;
@@ -102,26 +91,29 @@
 @media screen and (max-width: 550px) {
 
     .litmon_home-container{
-        
         margin: 1rem;
         padding: 1rem;
         flex-direction: column;
     }
+
     .litmon_home-container_img{
         flex-direction: row;
-        
         margin-top: 3rem;
     }
+
     .litmon_home-container_text h1{
         font-size: 40px;
     }
+
     .litmon_home-container_text h3 {
         font-size: 20px;
     }
+
     .litmon_home-container_text p{
         font-size: 14px;
         padding: 1rem 0 0 0;
     }
+
     .litmon_home-container_text button {
         width: 40%;
         padding: 0 0.1rem;

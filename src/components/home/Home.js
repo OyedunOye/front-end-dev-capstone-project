@@ -4,7 +4,7 @@ import './home.css'
 const Home = () => {
   return (
     <div className='litmon_home-outcover'>
-    <div className='litmon_home'>
+    <div className='litmon_home' id='home'>
       <div className='litmon_home-container section__padding'>
         <div className='litmon_home-container_text'>
           <h1>Little Lemon</h1>
