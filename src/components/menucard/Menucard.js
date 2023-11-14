@@ -38,7 +38,7 @@ const Menucard = () => {
         {menuList.map(({dish, pix, price, description})=>(
           <div className='litmon_menucard-box'>
               <div className='litmon_menucard-box-meal'>
-                <img src= {pix} key={dish} alt={dish} width= '302rem' height='160rem' style={{borderRadius: '1rem' }}  />
+                <img src= {pix} key={dish} alt={dish}  />
               </div>
            
             <div className='litmon_menucard-innermagin'>

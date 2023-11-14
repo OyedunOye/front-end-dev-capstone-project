@@ -22,16 +22,40 @@
     outline: none;
     border: none;
     font-size: 18px;
-    
+    cursor: pointer;
 }
 
 /* Yet to figure out the media-query, image is not respon
 sive, neither are the menu cards making up the  menu-
 list component. */
 
-@media screen and (max-width:550px) {
-    .litmon_menulist .litmon_menucard-box{
+@media screen and (max-width:900px) {
+    .litmon_menulist-head h1 {
+        font-size: 54px;
+    }
+    .litmon_menulist-head button{
+        font-size: 14px;
+        padding: 0 0.1rem;
+    }
+    .litmon_menulist-head{
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width:550px){
+    .litmon_menulist-head button {
+        margin: 2rem 0;
+        align-self: flex-start;
+        
+        width: 40%;
+    }
+    .litmon_menulist-head h1{
+        font-size: 40px;
+        align-self: flex-start;
+    }
+    .litmon_menulist-head{
         display: flex;
         flex-direction: column;
+        margin: 0 1rem;
     }
 }

@@ -117,7 +117,7 @@
     .litmon_home-container_text button {
         width: 40%;
         padding: 0 0.1rem;
-        margin-top: 2rem;
+        margin: 2rem 0;
         font-size: 12px;
     }
 }
