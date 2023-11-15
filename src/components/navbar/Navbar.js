@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import { RiMenuFill, RiCloseLine } from 'react-icons/ri';
 import './navbar.css'
 import logo  from '../../assets/logotop.jpg';
 
@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className='litmon_navbar-menu'>
       {toggleMenu
           ?<RiCloseLine color='000' size={27} onClick={()=> setToggleMenu(false)}/>
-          :<RiMenu3Line color='000' size={27} onClick={()=> setToggleMenu(true)}/>
+          :<RiMenuFill color='000' size={27} onClick={()=> setToggleMenu(true)}/>
         }
         {toggleMenu && (
           <div className='litmon_navbar-menu_container scale-up-center'>

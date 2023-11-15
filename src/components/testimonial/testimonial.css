@@ -1,0 +1,46 @@
+.litmon_testi {
+    background: var(--color-bgd);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.litmon_testi-cont h2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 6rem 0;
+    color: var(--color-subtitle);
+}
+
+.litmon_testi-cont_holder{
+    display: flex;
+    align-content: space-between;
+    border: white solid 1rem;
+}
+
+.litmon_reviewcard{
+    display: flex;
+    background-color: #fff;
+    margin:1rem 2rem;
+    flex-direction: column;
+    border: red solid 1rem;
+    border-radius: 5%;
+    width: 10rem;
+    height: 15rem;
+}
+
+.name_pix{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    flex: 1;
+    margin: 2rem,0;
+   
+}
+
+.name_pix img{
+    width: 40%;
+    height: 8rem;
+}
