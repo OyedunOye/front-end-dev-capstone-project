@@ -5,7 +5,7 @@ import pixB from '../../assets/Mario_and_Adrian_b.jpg'
 
 const About = () => {
   return (
-    <div className='litmon_about section__margin'>
+    <div className='litmon_about section__margin' id='about'>
       <div className='litmon_about-text'>
         <h1>Little Lemon</h1>
         <h3>Chicago</h3>

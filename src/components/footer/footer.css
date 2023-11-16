@@ -1,0 +1,50 @@
+.litmon_footer{
+    background-color: var(--color-footer);
+    height: 20rem;
+
+}
+
+.litmon_footer-cont{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+}
+
+.litmon_footer-logo{
+    display: flex;
+    width: 20rem;
+    align-content: center;
+    justify-content: center;
+}
+
+.litmon_footer-logo img{
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0;
+}
+
+.footer_nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer_contact{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer_socialmedia{
+    display: flex;
+    flex-direction: column;
+}
+
+.litmon_footer h2{
+    font-family: var(--font-family-title);
+    font-size: 18px;
+    text-decoration: underline;
+}
