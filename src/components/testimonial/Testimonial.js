@@ -39,10 +39,10 @@ const data = [
 
 const Testimonial = () => {
   return (
-    <div className='litmon_testi '>
-      <div className='litmon_testi-cont '>
-        <h2>Testimonials</h2>
-        <div className='litmon_testi-cont_holder section__padding'>
+    <div className='litmon_testi'>
+      <div className='litmon_testi-cont section__padding'>
+        <div className='heading '><h2>Testimonials</h2></div>
+        <div className='litmon_testi-cont_holder'>
           
             {data.map(({ name, pix, rating, review})=>(
               <div className='litmon_reviewcard'>              <div key={name} className='star'>

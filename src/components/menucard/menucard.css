@@ -1,32 +1,52 @@
 .litmon_menucard {
-    display:flex; 
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
     
 }
 
 .litmon_menucard-box {
-
-    width: 16rem;
-    height: 38rem;
     display: flex;
-    flex-direction: row;
-    flex: 1;
-    flex-direction: column;
     background-color: var(--color-footer);
+    align-content: center;
+    justify-content: stretch;
+    align-items: center;
+    flex-direction: column;
     border-start-end-radius: 5%;
     border-start-start-radius: 5%;
-    margin: 0 0.5rem;
+    width: 35rem;
+    height: 35rem;
+    flex-wrap: wrap;
+    flex: 0.25;
     
 }
 
+.litmon_menucard-box-meal{
+    display: flex;
+    width: 100%;
+    height: 15rem;
+    
+    align-items:normal;
+    border-radius: 2rem;
+}
+
+.litmon_menucard-box-meal img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
 .litmon_menucard-innermagin {
-    margin: 2rem 1.5rem;
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 .litmon_menucard-box_heading {
     display: flex;
-    padding-top: 1rem;
+    padding: 0.5rem 0;
     font-family: var(--font-family-title);
     font-size: 20px;
     justify-content: space-between;
@@ -39,39 +59,21 @@
     display: flex;
     font-weight: bold;
     justify-content: space-between;
-    align-content: last baseline;
-    margin-top: 3rem;
-
+    align-items: baseline;
+    margin-top: 1.5rem;
 }
 
 .litmon_menucard-box_desc{
     font-family: var(--font-family-text);
     font-size: 16px;
     color: var(--color-bgd);
-    margin: 2rem 0;
-    padding-top: 1rem;
+    padding: 0.5rem 0;
 }
 
 .litmon_menucard-box_heading p{
     color: var(--color-price);
     
 }
-
-.litmon_menucard-box-meal{
-    display: flex;
-    width: auto;
-    height: 180rem;
-    border-radius: 1rem;
-    
-}
-
-.litmon_menucard-box-meal img{
-    border-radius: 1rem;
-    width: 100%;
-    height: 100%;
-}
-
-
 
 /* Yet to figure out the media-query, image is not respon
 sive, neither are the menu cards making up the  menu-
@@ -87,7 +89,15 @@ list component. */
     .litmon_menucard-box_desc {
         font-size: 14px;
     }
+    .litmon_menucard-box-meal{
+        width: 13rem;
+        height: 12rem;
+    }
+    .litmon_menucard-box
+    {height: 30rem;}
 }
+
+
 
 @media screen and (max-width: 550px) {
         .litmon_menucard{
@@ -97,7 +107,8 @@ list component. */
         }
 
         .litmon_menucard-box-meal{
-            height: auto;
+            width: 100%;
+            height: 10rem;
             display: flex;
 
         }
