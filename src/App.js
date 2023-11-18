@@ -1,17 +1,17 @@
 import './App.css';
-import { Navbar, Home,Testimonial, About,Footer, Menulist } from './components';
-import {Route, Routes } from 'react-router-dom';
+import { Navbar, Footer } from './components';
+import Main from './components/main/Main';
+import {BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <Navbar/>
-      <Home />
-      <Menulist />
-      <Testimonial />
-      <About />
-      <Footer />
+    <Router>
+      <div>
+        <Navbar/>
+        <Main />
+        <Footer />
     </div>
+    </Router>
   );
 }
 

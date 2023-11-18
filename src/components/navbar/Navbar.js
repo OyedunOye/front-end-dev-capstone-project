@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { RiMenuFill, RiCloseLine } from 'react-icons/ri';
 import './navbar.css'
 import logo  from '../../assets/logotop.jpg';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -15,10 +16,10 @@ const Navbar = () => {
         </div>
         <div className='litmon_navbar-container-nav'>
           <nav>
-            <a href="/#home" >Home </a>
+            <Link to="/" >Home </Link>
             <a href="/#about" >About </a>
             <a href="/#menu" >Menu </a>
-            <a href="/#reservations" >Reservations </a>
+            <Link to="/booking-page" >Reservations </Link>
             <a href="/#orderOnline" >Order Online </a>
             <a href="/#login" >Login </a>
           </nav>
@@ -32,12 +33,12 @@ const Navbar = () => {
           <div className='litmon_navbar-menu_container scale-up-center'>
             <div className='litmon_navbar-menu_container-links' >
               <nav>
-                <a href="/#home" >Home </a>
-                <a href="/#about" >About </a>
-                <a href="/#menu" >Menu </a>
-                <a href="/#reservations" >Reservations </a>
-                <a href="/#orderOnline" >Order Online </a>
-                <a href="/#login" >Login </a>
+              <Link to="/" >Home </Link>
+              <a href="/#about" >About </a>
+              <a href="/#menu" >Menu </a>
+              <Link to="/booking-page" >Reservations </Link>
+              <a href="/#orderOnline" >Order Online </a>
+              <a href="/#login" >Login </a>
               </nav>
             </div>
           </div>
