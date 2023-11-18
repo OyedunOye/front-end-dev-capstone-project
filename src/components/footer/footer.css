@@ -48,3 +48,25 @@
     font-size: 18px;
     text-decoration: underline;
 }
+
+@media screen and (max-width:900px) {
+    .litmon_footer-logo{
+        display: flex;
+        width: 10rem;
+    }
+    .litmon_footer-cont h2{
+        font-size: 16px;
+        padding: 0.5rem 0;
+    }
+    .litmon_footer-cont a,p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .litmon_footer-cont {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+}
