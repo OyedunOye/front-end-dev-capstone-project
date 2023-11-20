@@ -1,7 +1,7 @@
 import React, { useReducer } from 'react'
 import Bookingpage from '../../pages/Bookingpage.js';
 import ConfirmedBooking from "../reserveTableForm/ConfirmedBooking";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import HomePage from '../../pages/Homepage.js';
 
