@@ -4,7 +4,8 @@ import './navbar.css'
 import logo  from '../../assets/logotop.jpg';
 import { Link } from 'react-router-dom';
 
-
+// I have used icons from react icons, I first needed to 
+//install react icons with npm before I can install and use in my code. Just a reminder for myself.
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
