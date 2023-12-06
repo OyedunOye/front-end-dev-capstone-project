@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 // I have used icons from react icons, I first needed to 
 //install react icons with npm before I can install and use in my code. Just a reminder for myself.
+//Remember to fix the drop-down display for menu icon in mobile devices.
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
