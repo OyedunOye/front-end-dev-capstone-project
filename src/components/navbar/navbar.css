@@ -42,10 +42,17 @@ nav {
     font-family: var(--font-family-text);
 }
 
+
+.litmon_navbar-menu_container-links{
+    position: relative;
+}
+
 @media screen and (max-width: 900px) {
     
     .litmon_navbar-menu {
         display: flex;
+        flex-direction: column;
+        
     }
     .litmon_navbar-container nav{
         display: none;
@@ -53,6 +60,17 @@ nav {
     .litmon_navbar-menu_container-links nav {
         display: flex;
         flex-direction: column;
+        position: absolute;
+        z-index: 0.5;
+        align-items:flex-start;
+        align-content: flex-start;
+        height: auto;
+        width:25%;
+        color: var(--color-title);
+    }
+
+    .litmon_navbar-menu_container-links a:hover{
+        color: #fff;
     }
 }
 
